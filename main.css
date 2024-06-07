@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.container{
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.form input[type ="text"]{
+    width: 80%;
+    padding: 18px 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.form input[type ="submit"] {
+    padding: 15px 25px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.tasks {
+    position: absolute;
+    width: 600px;
+    min-height: 100px;
+    top: 200px;
+    left: 50%;
+    padding-bottom: 30px;
+    background-color: #eee;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.tasks div.task {
+    position: relative;
+    width: 450px;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-transition: .3;
+    -moz-transition: .3;
+    -ms-transition: .3;
+    -o-transition: .3;
+}
+.tasks .done {
+    opacity: 0.4;
+}
+.tasks div span {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    padding: 10px 8px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+}
